@@ -1,0 +1,8 @@
+body {
+  background-color: green;
+  color: white; }
+  body h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: normal;
+    padding: 50px; }
