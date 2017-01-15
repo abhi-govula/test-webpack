@@ -9,6 +9,7 @@ const newObl = {
     age,
     testVariable
 }
+
 const secObj = {age: 10000};
 
 setTimeout(() => console.log("The message after timeout"), 2000);

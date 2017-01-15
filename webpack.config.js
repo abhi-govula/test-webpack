@@ -5,6 +5,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     watch: true,
+    devtool: '#source-map',
     module: {
         loaders: [
             {
@@ -19,7 +20,7 @@ module.exports = {
                 test: /\.scss$/,
                 loader: ExtractTextPlugin.extract(
                     "style",
-                    "css!sass")
+                    "css?sourceMap!sass?sourceMap")
             }
         ]
     },
