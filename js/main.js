@@ -1,4 +1,4 @@
-import '../css/style.css';
+import '../styles/style.scss';
 console.log("hi there from webpack :)");
 
 const testVariable = `Test ES6 with template strings`;
